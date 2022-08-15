@@ -1,0 +1,2 @@
+# MinecraftDatapack
+終の帝国で利用するDatapackを全てまとめたリポジトリです

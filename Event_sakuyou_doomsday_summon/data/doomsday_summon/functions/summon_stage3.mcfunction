@@ -1,0 +1,9 @@
+### Copyright © 2022 よしたこ
+### 防具建てによる召喚ファンクション(ネザー編)
+
+execute if score #doomsday_summon doomsday.random matches 1 run execute at @s run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,Tags:["doomsday"],HandItems:[{id:"golden_sword",Count:1},{}],ArmorItems:[{id:"golden_boots",Count:1},{id:"golden_leggings",Count:1},{id:"golden_chestplate",Count:1},{id:"golden_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 2 run execute at @s run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,Tags:["doomsday"],HandItems:[{id:"golden_sword",Count:1},{}],ArmorItems:[{id:"golden_boots",Count:1},{id:"golden_leggings",Count:1},{id:"golden_chestplate",Count:1},{id:"golden_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 3 run execute at @s run summon minecraft:piglin_brute ~ ~ ~ {IsImmuneToZombification:1,Tags:["doomsday"],HandItems:[{id:"golden_axe",Count:1},{}],ArmorItems:[{id:"golden_boots",Count:1},{id:"golden_leggings",Count:1},{id:"golden_chestplate",Count:1},{id:"golden_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 4 run execute at @s run summon minecraft:piglin ~ ~ ~ {IsImmuneToZombification:1,Tags:["doomsday"],HandItems:[{id:"golden_sword",Count:1},{}],ArmorItems:[{id:"golden_boots",Count:1},{id:"golden_leggings",Count:1},{id:"golden_chestplate",Count:1},{id:"golden_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 5 run execute at @s run summon minecraft:blaze ~ ~ ~ {Tags:["doomsday"]}
+execute if score #doomsday_summon doomsday.random matches 6 run execute at @s run summon minecraft:ghast ~ ~ ~ {Tags:["doomsday"]}

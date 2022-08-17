@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{MaoBookTag:1}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mao_book:main_mao_book"
+  }
+}

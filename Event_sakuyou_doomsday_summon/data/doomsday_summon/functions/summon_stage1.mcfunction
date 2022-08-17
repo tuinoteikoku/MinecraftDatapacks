@@ -1,0 +1,9 @@
+### Copyright © 2022 よしたこ
+### 防具建てによる召喚ファンクション(一般編)
+
+execute if score #doomsday_summon doomsday.random matches 1 run execute at @s run summon minecraft:zombie ~ ~ ~ {Tags:["doomsday"],HandItems:[{id:"iron_sword",Count:1},{}],ArmorItems:[{id:"iron_boots",Count:1},{id:"iron_leggings",Count:1},{id:"iron_chestplate",Count:1},{id:"iron_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 2 run execute at @s run summon minecraft:zombie ~ ~ ~ {Tags:["doomsday"],HandItems:[{id:"iron_sword",Count:1},{}],ArmorItems:[{id:"iron_boots",Count:1},{id:"iron_leggings",Count:1},{id:"iron_chestplate",Count:1},{id:"iron_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 3 run execute at @s run summon minecraft:zombie ~ ~ ~ {Tags:["doomsday"],HandItems:[{id:"iron_sword",Count:1},{}],ArmorItems:[{id:"iron_boots",Count:1},{id:"iron_leggings",Count:1},{id:"iron_chestplate",Count:1},{id:"iron_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 4 run execute at @s run summon minecraft:skeleton ~ ~ ~ {Tags:["doomsday"],HandItems:[{id:"bow",Count:1},{}],ArmorItems:[{id:"iron_boots",Count:1},{id:"iron_leggings",Count:1},{id:"iron_chestplate",Count:1},{id:"iron_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 5 run execute at @s run summon minecraft:skeleton ~ ~ ~ {Tags:["doomsday"],HandItems:[{id:"bow",Count:1},{}],ArmorItems:[{id:"iron_boots",Count:1},{id:"iron_leggings",Count:1},{id:"iron_chestplate",Count:1},{id:"iron_helmet",Count:1}]}
+execute if score #doomsday_summon doomsday.random matches 6 run execute at @s run summon minecraft:creeper ~ ~ ~ {Tags:["doomsday"]}

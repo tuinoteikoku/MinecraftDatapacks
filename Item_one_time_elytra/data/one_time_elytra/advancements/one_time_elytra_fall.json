@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:elytra"
+              ],
+              "nbt": "{OneTimeElytraTag:1}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "one_time_elytra:remove_one_time_elytra"
+  }
+}

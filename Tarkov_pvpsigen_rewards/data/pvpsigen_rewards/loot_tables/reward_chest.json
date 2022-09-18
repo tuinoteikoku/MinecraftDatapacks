@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 5,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:bone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,59 @@
+panels:
+  enchanter_book:
+    perm: default
+    rows: 1
+    title: エンチャントメニュー
+    empty: BLACK_STAINED_GLASS_PANE
+    open-with-item:
+      material: flower_banner_pattern
+      enchanted: 'true'
+      name: エンチャント許可証
+      customdata: 18
+      lore:
+      - '&3右クリックで開きます'
+    item:
+      '0':
+        material: ENCHANTING_TABLE
+        stack: 10
+        name: エンチャント実行_レベル10
+        lore:
+        - '&7エンチャントレベル10相当のエンチャント本を生成します。'
+        - '&7【 実行条件】Lv1の経験値 ラピスラズリx1 本x1'
+        commands:
+        - function enchanter_book:enchant_level_10
+      '1':
+        material: ENCHANTING_TABLE
+        stack: 20
+        name: エンチャント実行_レベル20
+        lore:
+        - '&7エンチャントレベル10相当のエンチャント本を生成します。'
+        - '&7【 実行条件】Lv2の経験値 ラピスラズリx2 本x1'
+        commands:
+        - function enchanter_book:enchant_level_20
+      '2':
+        material: ENCHANTING_TABLE
+        stack: 30
+        name: エンチャント実行_レベル30
+        lore:
+        - '&7エンチャントレベル10相当のエンチャント本を生成します。'
+        - '&7【 実行条件】Lv3の経験値 ラピスラズリx3 本x1'
+        commands:
+        - function enchanter_book:enchant_level_30
+      '3':
+        material: ENCHANTING_TABLE
+        stack: 40
+        name: エンチャント実行_レベル40
+        lore:
+        - '&7エンチャントレベル10相当のエンチャント本を生成します。'
+        - '&7【 実行条件】Lv4の経験値 ラピスラズリx4 本x1'
+        commands:
+        - function enchanter_book:enchant_level_40
+      '4':
+        material: ENCHANTING_TABLE
+        stack: 50
+        name: エンチャント実行_レベル50
+        lore:
+        - '&7エンチャントレベル10相当のエンチャント本を生成します。'
+        - '&7【 実行条件】Lv5の経験値 ラピスラズリx5 本x1'
+        commands:
+        - function enchanter_book:enchant_level_50

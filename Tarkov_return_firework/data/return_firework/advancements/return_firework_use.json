@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:sigenpro"
+          },
+          "equipment": {}
+        },
+        "item": {
+          "nbt": "{ReturnFireworkTag:1}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "return_firework:use"
+  }
+}

@@ -1,0 +1,32 @@
+[
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:fishing_bobber",
+            "location": {
+              "fluid": {
+                "tag":"lava"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:fishing_bobber",
+            "location": {
+              "fluid": {
+                "fluid": "minecraft:flowing_lava"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

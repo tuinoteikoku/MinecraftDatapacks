@@ -1,0 +1,26 @@
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:fishing_rod"
+            ],
+            "nbt": "{NetherFishingRodTag:1}"
+          }
+        }
+      }
+    }
+    ,
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "RightClick_fishing_rod": {
+            "min": 1
+          }
+        }
+      }
+    ]

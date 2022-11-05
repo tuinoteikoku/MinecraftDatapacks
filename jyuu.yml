@@ -1,0 +1,29 @@
+info:
+  namespace: iaweapons
+items:
+  protorifle:
+    enabled: true
+    display_name: display-name-protorifle
+    permission: iaweapons.items.protorifle
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_path: protorifle
+    durability:
+      max_custom_durability: 1600
+    behaviours:
+      gun:
+        projectile: iaweapons:tama
+    events:
+      gun_shot:
+        play_sound:
+          name: iaweapons:item.revolver.shot
+          volume: 3
+          pitch: 1
+        play_effect:
+          name: SMOKE
+      gun_no_ammo:
+        play_sound:
+          name: iaweapons:item.revolver.no_ammo
+          volume: 1
+          pitch: 1

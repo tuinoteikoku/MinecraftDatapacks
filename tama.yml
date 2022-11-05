@@ -1,0 +1,22 @@
+info:
+  namespace: iaweapons
+items:
+  tama:
+    enabled: true
+    display_name: display-name-tama
+    permission: iaweapons.items.tama
+    durability:
+      max_custom_durability: 5
+    lore:
+      - lore-1-tama
+      - lore-2-tama
+      - lore-3-tama
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - tama
+    events:
+      item_hit_entity:
+          damage_entity:
+            damage: 20

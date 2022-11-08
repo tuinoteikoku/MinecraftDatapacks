@@ -12,10 +12,10 @@ items:
       - lore-2-tama
       - lore-3-tama
     resource:
-      material: STICK
+      material: SNOWBALL
       generate: true
       textures:
-        - tama
+        - item/tama
     events:
       item_hit_entity:
           damage_entity:

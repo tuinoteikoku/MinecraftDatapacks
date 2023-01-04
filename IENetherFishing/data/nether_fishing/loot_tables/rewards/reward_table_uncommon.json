@@ -1,0 +1,42 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cooked_cod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:2,display:{Name:'{\"text\":\"ブレイズフィッシュ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"ブレイズとの関連性は不明\"}']},CustomModelData:9001}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cooked_beef",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"調極厚炭化ステーキ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"ネザーに堕ちた牛が焼けたもの。\"}','{\"text\":\"熱され過ぎてもはや炭\"}']},CustomModelData:9002}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"地獄パン\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"ピグリンお手製のパン。\"}','{\"text\":\"おそらく遊泳中に落としたのだろう\"}']},CustomModelData:9002}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

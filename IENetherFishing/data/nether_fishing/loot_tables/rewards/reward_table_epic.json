@@ -1,0 +1,42 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cooked_cod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:4,display:{Name:'{\"text\":\"ネザライトフィッシュ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"滅多に見ることはない幻の魚\"}']},CustomModelData:9001}"
+              }
+            ]
+          } ,
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:rotten_flesh",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"ゾンビピッグマンの死骸\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"絶滅したゾンビピッグマンの死骸。\"}','{\"text\":\"今なお死骸は朽ちず\"}']},CustomModelData:9003}"
+              }
+            ]
+          } ,
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:golden_apple",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"金のリンゴ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"ピグリンのお守り。\"}','{\"text\":\"普通に食べれる\"}']},CustomModelData:9003}"
+              }
+            ]
+          } 
+        ]
+      }
+    ]
+  }

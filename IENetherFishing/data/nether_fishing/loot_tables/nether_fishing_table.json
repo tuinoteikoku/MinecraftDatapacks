@@ -1,53 +1,29 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 70,
-            "name": "minecraft:cooked_cod",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"溶岩魚\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"とても熱い\"}']},CustomModelData:9001}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 20,
-            "name": "minecraft:cooked_cod",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{NetherFishTag:2,display:{Name:'{\"text\":\"ブレイズフィッシュ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"ブレイズとの関連性は不明\"}']},CustomModelData:9001}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 9,
-            "name": "minecraft:cooked_cod",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{NetherFishTag:3,display:{Name:'{\"text\":\"ウィザーフィッシュ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"マグマダイブで死亡したクラフターの\"}','{\"text\":\"怨念を糧にしていると言われている\"}']},CustomModelData:9001}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "minecraft:cooked_cod",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{NetherFishTag:4,display:{Name:'{\"text\":\"ネザライトフィッシュ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"滅多に見ることはない幻の魚\"}']},CustomModelData:9001}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 74,
+          "name": "nether_fishing:rewards/reward_table_common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "nether_fishing:rewards/reward_table_uncommon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "nether_fishing:rewards/reward_table_rare"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "nether_fishing:rewards/reward_table_epic"
+        }
+      ]
+    }
+  ]
+}

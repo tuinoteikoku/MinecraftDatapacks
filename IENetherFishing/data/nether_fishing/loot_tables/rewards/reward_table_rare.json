@@ -1,0 +1,42 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 9,
+            "name": "minecraft:cooked_cod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:3,display:{Name:'{\"text\":\"ウィザーフィッシュ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"マグマダイブで死亡したクラフターの\"}','{\"text\":\"怨念を糧にしていると言われている\"}']},CustomModelData:9001}"
+              }
+            ]
+          } ,
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:baked_potato",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"ポテトフライ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"ネザー要塞で作られたﾎﾟﾃｲﾄｩﾌﾗｲ。\"}','{\"text\":\"ブレイズが原料\"}']},CustomModelData:9002}"
+              }
+            ]
+          } ,
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:rabbit_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"溶岩スープ\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"飲める溶岩。\"}','{\"text\":\"超特殊調理食材(噓)\"}']},CustomModelData:9002}"
+              }
+            ]
+          } 
+        ]
+      }
+    ]
+  }

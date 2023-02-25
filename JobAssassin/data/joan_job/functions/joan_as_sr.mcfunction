@@ -1,0 +1,1 @@
+execute at @a[tag=joan_as,gamemode=adventure,scores={joan_ability_third=..1000}] run attribute @s minecraft:generic.max_health base set 20

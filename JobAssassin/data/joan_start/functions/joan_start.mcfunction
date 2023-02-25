@@ -1,0 +1,1 @@
+execute in minecraft:ja-world as @a[x=0.5,y=-62,z=0.5,distance=..3,tag=joan_players] run tp @a[x=0.5,y=-62,z=0.5,distance=..3,tag=joan_players] 0.5 -8 0.5

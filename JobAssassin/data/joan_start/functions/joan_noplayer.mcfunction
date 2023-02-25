@@ -1,0 +1,1 @@
+execute in minecraft:ja-world unless entity @a[x=-200,dx=400,y=-53,dy=250,z=-200,dz=400,tag=joan_players] run function joan_start:joan_play

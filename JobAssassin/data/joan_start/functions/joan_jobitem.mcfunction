@@ -11,7 +11,5 @@ execute in minecraft:ja-world run item replace entity @a[tag=joan_na,tag=joan_pl
 execute in minecraft:ja-world run item replace entity @a[tag=joan_na,tag=joan_playing,gamemode=adventure] hotbar.8 with minecraft:green_concrete{display:{Name:"\"巨城\"",Lore:['[{"text":"Qキーで使用"}]','[{"text":"耐え忍ぶことが活路を見出す方法"}]']}} 1
 
 execute in minecraft:ja-world run item replace entity @a[tag=joan_wo,tag=joan_playing,gamemode=adventure] hotbar.6 with minecraft:blue_dye{display:{Name:"\"ドーピング\"",Lore:['[{"text":"Qキーで使用"}]','[{"text":"ステータスが上昇する、原理は不明"}]']}} 1
-execute in minecraft:ja-world run item replace entity @a[tag=joan_wo,tag=joan_playing,gamemode=adventure] hotbar.7 with minecraft:blue_wool{display:{Name:"\"心眼\"",Lore:['[{"text":"Qキーで使用"}]','[{"text":"サーチ&デストロイ}]']}} 1
-execute in minecraft:ja-world run item replace entity @a[tag=joan_wo,tag=joan_playing,gamemode=adventure] hotbar.8 with minecraft:blue_stained_glass{display:{Name:"¥"不可視の領域¥"",Lore:['[{"text":"使用不可"}]','[{"text":"謎の空白、なにもない"}]']}} 1
-
-##'[{"text":""}]'
+execute in minecraft:ja-world run item replace entity @a[tag=joan_wo,tag=joan_playing,gamemode=adventure] hotbar.7 with minecraft:blue_wool{display:{Name:"\"心眼\"",Lore:['[{"text":"Qキーで使用"}]','[{"text":"サーチアンドデストロイ"}]']}} 1
+execute in minecraft:ja-world run item replace entity @a[tag=joan_wo,tag=joan_playing,gamemode=adventure] hotbar.8 with minecraft:blue_stained_glass{display:{Name:"\"不可視の領域\"",Lore:['[{"text":"使用不可"}]','[{"text":"謎の空白、なにもない"}]']}} 1

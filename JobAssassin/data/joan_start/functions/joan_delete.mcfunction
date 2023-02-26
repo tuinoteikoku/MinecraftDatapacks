@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 execute in ja-world run kill @e[type=item,name="大ジャンプ"]
 execute in ja-world run kill @e[type=item,name="隠密"]
 execute in ja-world run kill @e[type=item,name="捨て身アタック"]
@@ -11,17 +10,3 @@ execute in ja-world run kill @e[type=item,name="巨城"]
 execute in ja-world run kill @e[type=item,name="ドーピング"]
 execute in ja-world run kill @e[type=item,name="心眼"]
 execute in ja-world run kill @e[type=item,name="不可視の領域"]
-=======
-execute in ja-world run kill @e[type=item,name="大ジャンプ"]
-execute in ja-world run kill @e[type=item,name="隠密"]
-execute in ja-world run kill @e[type=item,name="捨て身アタック"]
-execute in ja-world run kill @e[type=item,name="超加速"]
-execute in ja-world run kill @e[type=item,name="連撃"]
-execute in ja-world run kill @e[type=item,name="神速"]
-execute in ja-world run kill @e[type=item,name="非常食"]
-execute in ja-world run kill @e[type=item,name="猛攻"]
-execute in ja-world run kill @e[type=item,name="巨城"]
-execute in ja-world run kill @e[type=item,name="ドーピング"]
-execute in ja-world run kill @e[type=item,name="心眼"]
-execute in ja-world run kill @e[type=item,name="不可視の領域"]
->>>>>>> Stashed changes

@@ -1,1 +1,1 @@
-execute in ja-world at @e[name=joan_timer,type=armor_stand,scores={joan_timer=1..}] as @a[tag=!joan_playing] run gamemode spectator @a[tag=!joan_playing]
+execute in ja-world at @e[name="joan_timer",type=armor_stand,scores={joan_timer=1..}] as @a[tag=!joan_playing] run gamemode spectator @a[tag=!joan_playing]

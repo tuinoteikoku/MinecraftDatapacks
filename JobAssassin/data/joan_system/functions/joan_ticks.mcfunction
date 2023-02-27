@@ -26,7 +26,7 @@ function joan_job:joan_fa_af
 ##function joan_job:joan_fa_sf
 function joan_job:joan_na_p
 ##function joan_job:joan_na_nf
-##function joan_job:joan_na_af
+function joan_job:joan_na_af
 ##function joan_job:joan_na_sf
 function joan_job:joan_wo_p
 ##function joan_job:joan_wo_nf

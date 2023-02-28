@@ -1,0 +1,3 @@
+execute at @a[tag=joan_na,gamemode=adventure,scores={joan_na_sf=1,joan_ability_third=0}] run effect give @a[tag=joan_na,gamemode=adventure,scores={joan_na_af=1,joan_ability_third=0}] minecraft:strength 15 1 true
+execute at @a[tag=joan_na,gamemode=adventure,scores={joan_na_sf=1,joan_ability_third=0}] run effect give @a[tag=joan_na,gamemode=adventure,scores={joan_na_af=1,joan_ability_third=0}] minecraft:resistance 15 3 true
+execute at @a[tag=joan_na,gamemode=adventure,scores={joan_na_sf=1,joan_ability_third=0}] run function joan_job:joan_na_ss

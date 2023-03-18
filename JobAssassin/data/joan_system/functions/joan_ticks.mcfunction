@@ -11,7 +11,7 @@ function joan_start:joan_delete
 scoreboard players remove @a[scores={joan_ability_first=1..}] joan_ability_first 1
 scoreboard players remove @a[scores={joan_ability_second=1..}] joan_ability_second 1
 scoreboard players remove @a[scores={joan_ability_third=1..}] joan_ability_third 1
-scoreboard players remove @e[name="joan_timer",type=armor_stand,scores={joan_timer=1..}] joan_timer 1
+scoreboard players remove @e[name="joan_timer",scores={joan_timer=1..}] joan_timer 1
 
 
 
@@ -24,6 +24,7 @@ function joan_job:joan_as_sr
 function joan_job:joan_fa_p
 function joan_job:joan_fa_nf
 function joan_job:joan_fa_af
+function joan_jod:joan_fa_ar
 function joan_job:joan_fa_sf
 function joan_job:joan_na_p
 function joan_job:joan_na_nf

@@ -2,6 +2,7 @@
 function joan_start:joan_join
 ##function joan_start:joan_noplayer
 function joan_start:joan_jobitem
+function joan_start:joan_jobselect
 function joan_start:joan_time_finish
 function joan_start:joan_only_finish
 function joan_start:joan_death

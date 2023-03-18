@@ -1,6 +1,6 @@
 ##system,start
 function joan_start:joan_join
-function joan_start:joan_noplayer
+##function joan_start:joan_noplayer
 function joan_start:joan_jobitem
 function joan_start:joan_time_finish
 function joan_start:joan_only_finish
@@ -23,14 +23,14 @@ function joan_job:joan_as_sr
 function joan_job:joan_fa_p
 function joan_job:joan_fa_nf
 function joan_job:joan_fa_af
-##function joan_job:joan_fa_sf
+function joan_job:joan_fa_sf
 function joan_job:joan_na_p
-##function joan_job:joan_na_nf
+function joan_job:joan_na_nf
 function joan_job:joan_na_af
-##function joan_job:joan_na_sf
+function joan_job:joan_na_sf
 function joan_job:joan_wo_p
-##function joan_job:joan_wo_nf
-##function joan_job:joan_wo_af
+function joan_job:joan_wo_nf
+function joan_job:joan_wo_af
 ##function joan_job:joan_ra_p
 ##function joan_job:joan_ra_nf
 ##function joan_job:joan_ra_af

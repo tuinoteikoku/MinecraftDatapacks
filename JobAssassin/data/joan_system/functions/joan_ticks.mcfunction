@@ -13,7 +13,8 @@ scoreboard players remove @a[scores={joan_ability_second=1..}] joan_ability_seco
 scoreboard players remove @a[scores={joan_ability_third=1..}] joan_ability_third 1
 scoreboard players remove @e[name="joan_timer",scores={joan_timer=1..}] joan_timer 1
 
-
+##joan_timerのアーマースタンドが壊れた時用のコマンド
+##/summon minecraft:armor_stand 0.5 0 5.5 {Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"joan_timer"}',Tags:["joan_timer"]}
 
 ##job
 function joan_job:joan_as_p

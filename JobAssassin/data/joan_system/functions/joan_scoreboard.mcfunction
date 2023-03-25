@@ -3,6 +3,7 @@ scoreboard objectives add joan_ability_second dummy
 scoreboard objectives add joan_ability_third dummy
 scoreboard objectives add joan_timer dummy
 scoreboard objectives add joan_playmember dummy
+scoreboard objectives add joan_player_member dummy
 scoreboard objectives add joan_deathcount deathCount
 scoreboard objectives add joan_kill playerKillCount
 

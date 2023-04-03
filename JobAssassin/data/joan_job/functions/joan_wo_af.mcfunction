@@ -1,2 +1,0 @@
-execute at @a[tag=joan_wo,gamemode=adventure,scores={joan_wo_af=1,joan_ability_second=0}] as @a[gamemode=adventure,distance=1..5] run effect give @s minecraft:glowing 10 1 true
-execute at @a[tag=joan_wo,gamemode=adventure,scores={joan_wo_af=1,joan_ability_second=0}] run function joan_job:joan_wo_as

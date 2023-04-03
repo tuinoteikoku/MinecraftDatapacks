@@ -1,1 +1,0 @@
-execute in minecraft:ja-world as @a[tag=joan_players,scores={joan_player_member=4..}] run tp @a[tag=joan_players,scores={joan_player_member=4..}] 0.5 -8 0.5

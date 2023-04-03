@@ -1,1 +1,0 @@
-effect give @a[tag=joan_as,gamemode=adventure] minecraft:resistance 1 1 true

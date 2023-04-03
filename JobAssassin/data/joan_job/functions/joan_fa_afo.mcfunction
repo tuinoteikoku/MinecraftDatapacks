@@ -1,1 +1,0 @@
-scoreboard players reset @a[tag=joan_fa,gamemode=adventure,scores={joan_fa_af=1}] joan_fa_af

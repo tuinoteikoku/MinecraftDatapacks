@@ -1,1 +1,0 @@
-execute at @a[tag=joan_fa] run effect give @a[tag=joan_fa] minecraft:speed 1 2 true

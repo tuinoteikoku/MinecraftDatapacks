@@ -1,2 +1,0 @@
-execute at @a[tag=joan_na,gamemode=adventure,scores={joan_na_nf=1,joan_ability_first=0}] run effect give @a[tag=joan_na,gamemode=adventure,scores={joan_na_nf=1,joan_ability_first=0}] minecraft:saturation 5 2 true
-execute at @a[tag=joan_na,gamemode=adventure,scores={joan_na_nf=1,joan_ability_first=0}] run function joan_job:joan_na_ns

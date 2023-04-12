@@ -1,2 +1,0 @@
-execute in ja-world store result score @a[tag=joan_players,gamemode=adventure] joan_player_member run title @a[tag=joan_players,gamemode=adventure]
-execute in ja-world store result score @a[tag=joan_player,gamemode=adventure,] joan_player_member run title @a[tag=joan_player,gamemode=adventure,x=-12,dx=24,y=-20,dy=20,z=-12,dz=24]

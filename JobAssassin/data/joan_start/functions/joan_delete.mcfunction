@@ -1,8 +1,0 @@
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:iron_ingot"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:copper_ingot"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:gold_ingot"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_iron"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_copper"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_gold"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}}]
-execute in ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]

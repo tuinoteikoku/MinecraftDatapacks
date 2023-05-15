@@ -1,0 +1,42 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cooked_cod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"溶岩魚\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"特定サーバーのネザーに生息すると言われている魚。\"}','{\"text\":\"とても熱い\"}']},CustomModelData:9001}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cooked_chicken",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"焼き鳥\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"ネザーに堕ちた鶏が焼けたもの。\"}','{\"text\":\"熱され過ぎて固い\"}']},CustomModelData:9002}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{NetherFishTag:1,display:{Name:'{\"text\":\"溶岩クッキー\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\"溶岩の熱とガスとの涙で作られたクッキー\"}','{\"text\":\"\"}']},CustomModelData:9002}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

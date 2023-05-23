@@ -1,7 +1,7 @@
 ## 生存人数に対応した報酬配布 ※1
-give @a[tag=play,scores={joan_live=1}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50001,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 3
-give @a[tag=play,scores={joan_live=2}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50001,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
-give @a[tag=play,scores={joan_live=3}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50001,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 1
+give @a[tag=play,scores={joan_live=1}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50701,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 3
+give @a[tag=play,scores={joan_live=2}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50701,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
+give @a[tag=play,scores={joan_live=3}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50701,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 1
 
 ## アイテム削除 ※2
 clear @a[tag=joan_play]

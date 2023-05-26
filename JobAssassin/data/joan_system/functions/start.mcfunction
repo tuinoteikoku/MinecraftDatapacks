@@ -11,7 +11,7 @@ tag @e[type=armor_stand,tag=joan_select,tag=joan_timer] remove joan_select
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer 70000
 
 ## 参加プレイヤーTP(Tag:joan_play) ※5
-execute in JA-World unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400] run spreadplayers 0.5 0.5 30 180 false @a[tag=joan_play]
+execute in ja-world unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400] run spreadplayers 0.5 0.5 30 180 false @a[tag=joan_play]
 
 ## 開始演出(Tag:joan_play) ※6
 title @a[tag=joan_play] title ["",{"text":"\u22d9 \u30b2\u30fc\u30e0\u30b9\u30bf\u30fc\u30c8!! ","bold":true,"italic":true,"color":"dark_red"},{"text":"\u22d8","color":"dark_red"}]

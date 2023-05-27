@@ -15,6 +15,7 @@ execute in ja-world unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400] r
 
 ## 開始演出(Tag:joan_play) ※6
 title @a[tag=joan_play] title ["",{"text":"\u22d9 \u30b2\u30fc\u30e0\u30b9\u30bf\u30fc\u30c8!! ","bold":true,"italic":true,"color":"dark_red"},{"text":"\u22d8","color":"dark_red"}]
+playsound minecraft:entity.ender_dragon.growl master @a[tag=joan_play] ~ ~ ~
 
 ## アイテム配布 ※7
 item replace entity @a[tag=joan_fa,tag=joan_play] armor.feet with minecraft:chainmail_boots

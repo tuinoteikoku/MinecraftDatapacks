@@ -17,8 +17,8 @@ scoreboard players remove @s[scores={joan_ab_a=1..}] joan_active 1
 scoreboard players remove @s[scores={joan_ab_s=1..}] joan_special 1
 
 ## パッシブアビリティ
-effect give @s speed 3 1 true
-effect give @s jump_boost 3 1 true
+effect give @s speed 2 1 true
+effect give @s jump_boost 2 1 true
 
 ## スペシャル解除
 execute as @s[scores={joan_ab_s=..1000}] run attribute @s minecraft:generic.max_health base set 20

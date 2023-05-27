@@ -17,5 +17,3 @@ scoreboard players remove @s[scores={joan_ab_a=1..}] joan_active 1
 scoreboard players remove @s[scores={joan_ab_s=1..}] joan_special 1
 
 ## パッシブアビリティ
-effect give @s speed 2 0 true
-effect give @s jump_boost 2 0 true

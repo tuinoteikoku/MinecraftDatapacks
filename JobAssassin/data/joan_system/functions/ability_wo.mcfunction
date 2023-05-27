@@ -17,3 +17,8 @@ scoreboard players remove @s joan_active 1
 scoreboard players remove @s joan_special 1
 
 ## パッシブアビリティ
+effect give @s[scores={joan_kill=1..}] speed 2 0 true
+effect give @s[scores={joan_kill=2..}] jump_boost 2 0 true
+effect give @s[scores={joan_kill=3..}] regeneration 2 0 true
+effect give @s[scores={joan_kill=4..}] speed 2 1 true
+effect give @s[scores={joan_kill=5..}] jump_boost 2 1 true

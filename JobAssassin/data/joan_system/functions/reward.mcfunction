@@ -9,7 +9,10 @@ clear @a[tag=joan_play]
 ## 参加プレイヤー返送 ※3
 tp @a[tag=joan_play] 0.5 -63.0 10.0
 
-## 使用スコアボードのリセット ※4
+## アサシンのHPリセット ※4
+attribute @a[tag=joan_as,scores={joan_ab_s=..1000}] minecraft:generic.max_health base set 20
+
+## 使用スコアボードのリセット ※5
 scoreboard players reset @a[tag=joan_play] joan_normal
 scoreboard players reset @a[tag=joan_play] joan_active
 scoreboard players reset @a[tag=joan_play] joan_special
@@ -18,14 +21,14 @@ scoreboard players reset @a[tag=joan_play] joan_ab_a
 scoreboard players reset @a[tag=joan_play] joan_ab_s
 scoreboard players reset @a[tag=joan_play] joan_ticket
 
-## 参加プレイヤーTag削除(Tag:joan_play) ※5
+## 参加プレイヤーTag削除(Tag:joan_play) ※6
 tag @a[tag=joan_play] remove joan_play
 
-## 選択ジョブTag削除(Tag:joan_as,wa,fa,na) ※6
+## 選択ジョブTag削除(Tag:joan_as,wa,fa,na) ※7
 tag @a[tag=joan_as] remove joan_as
 tag @a[tag=joan_wo] remove joan_wo
 tag @a[tag=joan_fa] remove joan_fa
 tag @a[tag=joan_na] remove joan_na
 
-## 試合カウントリセット(Score:joan_timer) ※7
+## 試合カウントリセット(Score:joan_timer) ※8
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer -1

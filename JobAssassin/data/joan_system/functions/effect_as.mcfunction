@@ -9,6 +9,12 @@ effect give @s[scores={joan_active=1}] invisibility 10 1 true
 effect give @s[scores={joan_special=1}] strength 5 2 true
 attribute @s[scores={joan_special=1}] minecraft:generic.max_health base set 26
 
+## ノーマルエフェクト
+
+## アクティブエフェクト
+
+## スペシャルエフェクト
+
 ## ノーマルアビリティエフェクト
 scoreboard players add @s[scores={joan_nomal=1}] joan_ab_n 800
 scoreboard players set @s[scores={joan_nomal=1}] joan_nomal 0

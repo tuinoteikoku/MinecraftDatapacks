@@ -1,11 +1,20 @@
 ## 試合中でなく参加人数を満たしているか(Tag&Score:joan_join)
+# Tag[joan_join]の付与、剥奪
+execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,scores={joan_timer=-1}] run tag @a[x=0.5,y=-62,z=0.5,distance=..4] add joan_join
+execute in minecraft:ja-world as @a[tag=joan_timer,tag=joan_join,scores={joan_timer=-1}] run tag @a[x=0.5,y=-62,z=0.5,distance=5..] remove joan_join
 
+# Tag[joan_join]所持者の人数カウント
+execute store result score @a[tag=joan_join] joan_join run effect give @a[tag=joan_join] minecraft:glowing 1 1 true
+execute in ja-world as @a[scores={joan_join=4..}] run function joan_system:waiting
 
 ## 参加者希望者の参加猶予のカウント中か(Tag:joan_wait)
-execute in JA-world as @e[tag=joan_timer,tag=joan_wait] run function joan_system:joining
+execute in ja-world as @e[tag=joan_timer,tag=joan_wait] run function joan_system:joining
 
 ## ジョブ選択が終わったか(Tag:joan_select)
-execute in JA-world as @e[tag=joan_timer,tag=joan_select] run function joan_system:select
+execute in ja-world as @e[tag=joan_timer,tag=joan_select] run function joan_system:select
 
 ## 試合が始まっているか(Tag:joan_playing)
-execute in JA-world as @e[tag=joan_timer,tag=joan_playing] run function joan_system:play
+execute in ja-world as @e[tag=joan_timer,tag=joan_playing] run function joan_system:play
+
+# Tag[joan_play]の人数カウント
+execute store result score @a[tag=joan_play,gamemode=adventure] joan_live run effect give @a[tag=joan_play,gamemode=adventure] minecraft:unluck 1 0 true

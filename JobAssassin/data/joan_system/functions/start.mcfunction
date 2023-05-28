@@ -18,11 +18,11 @@ title @a[tag=joan_play] title ["",{"text":"\u22d9 \u30b2\u30fc\u30e0\u30b9\u30bf
 playsound minecraft:entity.ender_dragon.growl master @a[tag=joan_play] ~ ~ ~
 
 ## アイテム配布 ※7
-item replace entity @a[tag=joan_fa,tag=joan_play] armor.feet with minecraft:chainmail_boots
-item replace entity @a[tag=joan_as,tag=joan_play] hotbar.0 with minecraft:iron_sword
-item replace entity @a[tag=joan_na,tag=joan_play] hotbar.0 with minecraft:stone_sword
-item replace entity @a[tag=joan_na,tag=joan_play] weapon.offhand with minecraft:shield
-item replace entity @a[tag=joan_wo,tag=joan_play] hotbar.0 with minecraft:stone_axe
+item replace entity @a[tag=joan_fa,tag=joan_play] armor.feet with minecraft:chainmail_boots{CustomModelData:50702}
+item replace entity @a[tag=joan_as,tag=joan_play] hotbar.0 with minecraft:iron_sword{CustomModelData:50703}
+item replace entity @a[tag=joan_na,tag=joan_play] hotbar.0 with minecraft:stone_sword{CustomModelData:50704}
+item replace entity @a[tag=joan_na,tag=joan_play] weapon.offhand with minecraft:shield{CustomModelData:50705}
+item replace entity @a[tag=joan_wo,tag=joan_play] hotbar.0 with minecraft:stone_axe{CustomModelData:50706}
 give @a[tag=joan_play] minecraft:beetroot{display:{Name:'{"text":"兵糧丸","color":"dark_purple","bold":true}',Lore:['{"text":"これは我々に力を与えてくれるだろう…","italic":true}']}} 64
 
 ## 試合タイマー開始キー(Tag:joan_playing) ※8

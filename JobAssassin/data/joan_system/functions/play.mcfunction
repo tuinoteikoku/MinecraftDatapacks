@@ -21,4 +21,14 @@ execute as @e[type=armor_stand,tag=joan_timer,scores={joan_timer=0}] run functio
 ## 死亡したか ※5
 execute as @a[scores={joan_death=1}] run gamemode spectator @s
 
+## 能力用アイテム削除 ※6
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:iron_ingot",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:gold_ingot",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_copper",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_iron",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_gold",Count:1b}}]
+execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:barrier",Count:1b}}]
+
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事

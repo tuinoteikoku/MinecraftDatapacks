@@ -3,7 +3,7 @@ effect give @s[scores={joan_nomal=1}] strength 3 1 true
 effect give @s[scores={joan_nomal=1}] regeneration 3 3 true
 
 ## アクティブアビリティ効果
-execute at @a[tag=joan_wo,scores={joan_active=1,joan_ab_a=0}] as @a[tag=play,distance=1..25] run effect give @s minecraft:glowing 10 1 true
+execute at @a[tag=joan_wo,scores={joan_active=1,joan_ab_a=0}] as @a[tag=joan_play,distance=1..25] run effect give @s minecraft:glowing 10 1 true
 
 ## ノーマルエフェクト
 

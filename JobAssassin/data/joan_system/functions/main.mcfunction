@@ -6,7 +6,7 @@ execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,scores={joan_ti
 
 # Tag[joan_join]所持者の人数カウント
 execute store result score @a[tag=joan_join] joan_join run effect give @a[tag=joan_join] minecraft:glowing 1 1 true
-execute if entity @e[type=armor_stand,scores={joan_timer=-1}] in ja-world as @a[scores={joan_join=4..}] run function joan_system:waiting
+execute if entity @e[tag=joan_timer,scores={joan_timer=-1}] in ja-world as @a[scores={joan_join=4..}] run function joan_system:waiting
 
 ## 参加者希望者の参加猶予のカウント中か(Tag:joan_wait)
 execute in ja-world as @e[tag=joan_timer,tag=joan_wait] run function joan_system:joining

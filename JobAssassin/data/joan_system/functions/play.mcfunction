@@ -32,3 +32,5 @@ execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw
 execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:barrier",Count:1b}}]
 
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事
+
+title @a[tag=joan_debug] actionbar {"text":"play"}

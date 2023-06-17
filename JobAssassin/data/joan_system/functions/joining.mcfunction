@@ -9,3 +9,5 @@ tag @e[type=minecraft:armor_stand,tag=joan_timer,scores={joan_timer=1}] add joan
 tag @e[type=minecraft:armor_stand,tag=joan_timer,scores={joan_timer=1}] remove joan_wait
 execute in minecraft:ja-world run tag @a[x=2,dx=-4,y=-8,dy=2,z=2,dz=-4,tag=joan_join] add joan_select
 tag @a[tag=joan_select] remove joan_join
+
+title @a[tag=joan_debug] actionbar {"text":"joining"}

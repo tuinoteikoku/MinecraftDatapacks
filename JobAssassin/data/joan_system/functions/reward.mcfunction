@@ -29,3 +29,5 @@ tag @a[tag=joan_na] remove joan_na
 
 ## 試合カウントリセット(Score:joan_timer) ※7
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer -1
+
+tellraw @a[tag=joan_debug] {"text": "reward"}

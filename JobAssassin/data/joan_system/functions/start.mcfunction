@@ -27,3 +27,5 @@ give @a[tag=joan_play] minecraft:beetroot{display:{Name:'{"text":"兵糧丸","co
 
 ## 試合タイマー開始キー(Tag:joan_playing) ※8
 tag @e[type=armor_stand,tag=joan_timer] add joan_playing
+
+tellraw @a[tag=joan_debug] {"text": "start"}

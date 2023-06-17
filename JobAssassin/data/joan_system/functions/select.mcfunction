@@ -7,3 +7,5 @@ execute in minecraft:ja-world run effect give @a[tag=!joan_play] regeneration 1 
 
 ## job選択完了
 execute in minecraft:ja-world unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400,tag=joan_select] run function joan_system:start
+
+title @a[tag=joan_debug] actionbar {"text":"select and decide"}

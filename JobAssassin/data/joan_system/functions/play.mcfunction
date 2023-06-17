@@ -19,7 +19,8 @@ execute as @e[type=armor_stand,tag=joan_timer,scores={joan_timer=0}] run functio
 ### 制限時間が来たら
 
 ## 死亡したか ※5
-execute as @a[scores={joan_death=1},gamemode=!spectator] run gamemode spectator @s
+execute as @a[scores={joan_death=1..},gamemode=!spectator] run gamemode spectator @s
+execute as @a[scores={joan_death=1..},gamemode=!spectator] run effect clear @s
 
 ## 能力用アイテム削除 ※6
 execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}]

@@ -25,7 +25,13 @@ item replace entity @a[tag=joan_na,tag=joan_play] weapon.offhand with minecraft:
 item replace entity @a[tag=joan_wo,tag=joan_play] hotbar.0 with minecraft:stone_axe{CustomModelData:50706}
 give @a[tag=joan_play] minecraft:beetroot{display:{Name:'{"text":"兵糧丸","color":"dark_purple","bold":true}',Lore:['{"text":"これは我々に力を与えてくれるだろう…","italic":true}']}} 64
 
-## 試合タイマー開始キー(Tag:joan_playing) ※8
+## ゲームモード変更 ※8
+gamemode adventure @a[tag=joan_play]
+
+## 死亡回数リセット ※9
+scoreboard players set @a joan_death 0
+
+## 試合タイマー開始キー(Tag:joan_playing) ※9
 tag @e[type=armor_stand,tag=joan_timer] add joan_playing
 
 tellraw @a[tag=joan_debug] {"text": "start"}

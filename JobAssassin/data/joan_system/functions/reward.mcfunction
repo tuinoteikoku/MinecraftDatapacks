@@ -17,6 +17,7 @@ scoreboard players reset @a[tag=joan_play] joan_ab_n
 scoreboard players reset @a[tag=joan_play] joan_ab_a
 scoreboard players reset @a[tag=joan_play] joan_ab_s
 scoreboard players reset @a[tag=joan_play] joan_ticket
+scoreboard players reset @a[tag=joan_play] joan_death
 
 ## 参加プレイヤーTag削除(Tag:joan_play) ※5
 tag @a[tag=joan_play] remove joan_play

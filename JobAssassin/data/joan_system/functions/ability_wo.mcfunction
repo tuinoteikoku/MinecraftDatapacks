@@ -5,10 +5,10 @@ execute as @a[tag=joan_wo,scores={joan_nomal=1,joan_ab_n=0}] run function joan_s
 execute as @a[tag=joan_wo,scores={joan_active=1,joan_ab_a=0}] run function joan_system:effect_wo
 
 ## ノーマルアビリティCt
-scoreboard players remove @s[scores={joan_ab_n=1..}] joan_normal 1
+scoreboard players remove @s[scores={joan_ab_n=1..}] joan_ab_n 1
 
 ## アクティブアビリティCt
-scoreboard players remove @s[scores={joan_ab_a=1..}] joan_active 1
+scoreboard players remove @s[scores={joan_ab_a=1..}] joan_ab_a 1
 
 ## パッシブアビリティ
 effect give @s[scores={joan_kill=1..}] speed 2 1 true

@@ -35,6 +35,7 @@ scoreboard players set @a joan_death 0
 scoreboard players set @a[tag=joan_play] joan_ab_a 0
 scoreboard players set @a[tag=joan_play] joan_ab_n 0
 scoreboard players set @a[tag=joan_play] joan_ab_s 0
+scoreboard players set @a[tag=joan_play] joan_live 0
 
 ## 試合タイマー開始キー(Tag:joan_playing) ※11
 tag @e[type=armor_stand,tag=joan_timer] add joan_playing

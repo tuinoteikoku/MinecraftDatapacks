@@ -33,3 +33,5 @@ item replace entity @a[tag=joan_na,tag=joan_play,gamemode=adventure,scores={joan
 
 ## パッシブアイテム&その他
 item replace entity @a[tag=joan_na,tag=joan_play,gamemode=adventure] inventory.8 with minecraft:netherite_ingot{display:{Name:'"維持"',Lore:['[{"text":"使用不可"}]','[{"text":"現状維持を心がける"}]']}} 1
+
+title @a[tag=joan_na] actionbar {"text":"ab_na"}

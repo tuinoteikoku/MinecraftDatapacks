@@ -19,3 +19,5 @@ execute in ja-world as @e[tag=joan_timer,tag=joan_playing] run function joan_sys
 
 # Tag[joan_play]の人数カウント
 execute store result score @a[tag=joan_play,gamemode=adventure] joan_live run effect give @a[tag=joan_play,gamemode=adventure] minecraft:unluck 1 0 true
+
+title @a[tag=joan_debug] actionbar {"text":"main"}

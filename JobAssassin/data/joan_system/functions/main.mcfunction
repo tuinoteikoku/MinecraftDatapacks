@@ -1,7 +1,9 @@
 ## 試合中でなく参加人数を満たしているか(Tag&Score:joan_join)
 # Tag[joan_join]の付与、剥奪
 execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,scores={joan_timer=-1}] run tag @a[x=0.5,y=-62,z=0.5,distance=..4] add joan_join
+execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,tag=joan_wait] run tag @a[x=0.5,y=-62,z=0.5,distance=..4] add joan_join
 execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,scores={joan_timer=-1}] run tag @a[x=0.5,y=-62,z=0.5,distance=5..] remove joan_join
+execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,tag=joan_wait] run tag @a[x=0.5,y=-62,z=0.5,distance=5..] remove joan_join
 execute in minecraft:ja-world at @e[tag=joan_timer,tag=joan_join,scores={joan_timer=-1}] run scoreboard players set @a[x=0.5,y=-62,z=0.5,distance=5..] joan_join 0
 
 # Tag[joan_join]所持者の人数カウント

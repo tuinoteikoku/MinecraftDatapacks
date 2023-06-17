@@ -14,3 +14,5 @@ scoreboard objectives add joan_ticket dummy
 scoreboard objectives add joan_live dummy
 ### ゲーム参加人数カウント用のスコアボード
 scoreboard objectives add joan_killed minecraft.killed:player
+### 死亡確認用スコアボード
+scoreboard objectives add joan_death dummy

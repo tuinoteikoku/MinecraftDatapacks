@@ -32,4 +32,4 @@ item replace entity @a[tag=joan_fa,tag=joan_play,gamemode=adventure,scores={joan
 item replace entity @a[tag=joan_fa,tag=joan_play,gamemode=adventure,scores={joan_ab_s=1..}] hotbar.8 with minecraft:raw_gold{display:{Name:"\"突撃\"",Lore:['[{"text":"クールタイム中"}]','[{"text":"混乱に陥れろ"}]']}} 1
 
 ## パッシブアイテム&その他
-item replace entity @a[tag=joan_fa,tag=joan_play,gamemode=adventure] inventory.8 with minecraft:netherite_ingot{display:{Name:"\"軽装\"",Lore:['[{"text":"使用不可"}]','[{"text":"最低限がベスト"}]']}} 1
+item replace entity @a[tag=joan_fa,tag=joan_play] inventory.8 with minecraft:netherite_ingot{display:{Name:"\"軽装\"",Lore:['[{"text":"使用不可"}]','[{"text":"最低限がベスト"}]']}} 1

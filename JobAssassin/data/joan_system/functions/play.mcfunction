@@ -8,9 +8,9 @@ execute as @a[tag=joan_na,tag=joan_play] run function joan_system:ability_na
 scoreboard players remove @e[type=armor_stand,tag=joan_timer] joan_timer 1
 
 ## 死亡時の上位3位の順位の保存(Score:joan_ticket) ※3
-execute as @a[tag=joan_play,scores={joan_live=3}] run scoreboard players set @s joan_live 1
-execute as @a[tag=joan_play,scores={joan_live=2}] run scoreboard players set @s joan_live 2
-execute as @a[tag=joan_play,scores={joan_live=1}] run scoreboard players set @s joan_live 3
+execute as @a[tag=joan_play,scores={joan_live=3}] run scoreboard players set @s joan_ticket 1
+execute as @a[tag=joan_play,scores={joan_live=2}] run scoreboard players set @s joan_ticket 2
+execute as @a[tag=joan_play,scores={joan_live=1}] run scoreboard players set @s joan_ticket 3
 
 ## ゲーム終了条件が満たされたか ※4
 execute as @a[scores={joan_live=1},tag=joan_play] run function joan_system:reward
@@ -19,7 +19,7 @@ execute as @e[type=armor_stand,tag=joan_timer,scores={joan_timer=0}] run functio
 ### 制限時間が来たら
 
 ## 死亡したか ※5
-execute as @a[scores={joan_death=1}] run gamemode spectator @s
+execute as @a[scores={joan_death=1},gamemode=!spectator] run gamemode spectator @s
 
 ## 能力用アイテム削除 ※6
 execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}}]

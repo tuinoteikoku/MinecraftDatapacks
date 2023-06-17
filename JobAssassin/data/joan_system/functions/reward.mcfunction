@@ -27,7 +27,10 @@ tag @a[tag=joan_wo] remove joan_wo
 tag @a[tag=joan_fa] remove joan_fa
 tag @a[tag=joan_na] remove joan_na
 
-## 試合カウントリセット(Score:joan_timer) ※7
+## タイマーキーリセット ※7
+tag @e[tag=joan_timer,type=armor_stand] remove joan_playing
+
+## 試合カウントリセット(Score:joan_timer) ※8
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer -1
 
 tellraw @a[tag=joan_debug] {"text": "reward"}

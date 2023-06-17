@@ -31,7 +31,12 @@ gamemode adventure @a[tag=joan_play]
 ## 死亡回数リセット ※9
 scoreboard players set @a joan_death 0
 
-## 試合タイマー開始キー(Tag:joan_playing) ※9
+## スキル用スコア設定
+scoreboard players set @a[tag=joan_play] joan_ab_a 0
+scoreboard players set @a[tag=joan_play] joan_ab_n 0
+scoreboard players set @a[tag=joan_play] joan_ab_s 0
+
+## 試合タイマー開始キー(Tag:joan_playing) ※11
 tag @e[type=armor_stand,tag=joan_timer] add joan_playing
 
 tellraw @a[tag=joan_debug] {"text": "start"}

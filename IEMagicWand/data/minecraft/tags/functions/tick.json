@@ -1,0 +1,10 @@
+{
+    "values": [
+      "magic_wand:magic_wand/tick_magic_wand",
+      "magic_wand:magic_ball/tick_magic_ball",
+      "magic_wand:particle/particle_tick",
+      "magic_wand:explode_field/explode_field_tick",
+      "magic_wand:magic_field/magic_field_tick"
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "condition" : "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "blocks": [
+                  "minecraft:air"
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "MagicBallLifeTime": {
+            "max": 0
+          }
+        }
+      }
+    ]
+  }

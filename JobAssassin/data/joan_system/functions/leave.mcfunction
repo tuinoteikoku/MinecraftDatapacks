@@ -23,3 +23,6 @@ tag @s remove joan_play
 
 ## TP
 tp @s 0.5 -63.0 10.0
+
+## ゲームモードの変更
+gamemode adventure @s

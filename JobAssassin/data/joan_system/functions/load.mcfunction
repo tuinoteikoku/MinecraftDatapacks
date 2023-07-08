@@ -12,6 +12,9 @@ scoreboard objectives add jona_special minecraft.dropped:minecraft.gold_ingot
 scoreboard objectives add joan_ticket dummy
 ### 順位用のスコアボード
 scoreboard objectives add joan_live dummy
+### プレーヤー入退出検知用スコアボード
+scoreboard objectives add joan_Ptimer dummy
+scoreboard objectives add joan_Ctimer dummy
 ### ゲーム参加人数カウント用のスコアボード
 scoreboard objectives add joan_killed minecraft.killed:player
 ### 死亡確認用スコアボード

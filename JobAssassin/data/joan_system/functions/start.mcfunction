@@ -6,6 +6,7 @@ tag @a[tag=joan_select] remove joan_select
 
 ##ジョブ選択Tag削除(Tag:joan_select) ※3
 tag @e[type=armor_stand,tag=joan_select,tag=joan_timer] remove joan_select
+tag @e[type=armor_stand,tag=joan_join,tag=joan_timer] remove joan_join
 
 ## 試合タイマーセット(Score:joan_timer) ※4
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer 70000

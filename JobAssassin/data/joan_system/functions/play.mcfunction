@@ -35,7 +35,7 @@ execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:bar
 ## 途中退出のち参加したプレーヤーの強制退出
 scoreboard players operation @a joan_Ctimer = @e[tag=joan_timer] joan_timer
 execute as @a[tag=joan_play] run scoreboard players operation @s joan_Ctimer -= @s joan_Ptimer
-execute as @a[scores={joan_Ctimer=..-1},tag=joan_play] run function joan_system:leave
+execute as @a[scores={joan_Ctimer=..-2},tag=joan_play] run function joan_system:leave
 
 ## プレイヤーのスコアとゲームタイマーの同期
 scoreboard players operation @a[tag=joan_play] joan_Ptimer = @e[tag=joan_timer] joan_timer

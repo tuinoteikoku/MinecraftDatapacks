@@ -19,5 +19,8 @@ execute in ja-world as @e[tag=joan_timer,tag=joan_select] run function joan_syst
 ## 試合が始まっているか(Tag:joan_playing)
 execute in ja-world as @e[tag=joan_timer,tag=joan_playing] run function joan_system:play
 
+## 試合中以外にMAPに人がいるか(debug班以外)
+execute in ja-world as @e[tag=joan_timer,tag=joan_join] run tp @a[tag=!joan_debug] 0.5 -63.0 10.0
+
 # Tag[joan_play]の人数カウント
 execute store result score @a[tag=joan_play,gamemode=adventure] joan_live run effect give @a[tag=joan_play,gamemode=adventure] minecraft:unluck 1 0 true

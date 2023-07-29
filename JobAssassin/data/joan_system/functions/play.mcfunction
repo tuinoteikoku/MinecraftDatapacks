@@ -41,7 +41,7 @@ execute as @a[scores={joan_Ctimer=..-2},tag=joan_play] run function joan_system:
 scoreboard players operation @a[tag=joan_play] joan_Ptimer = @e[tag=joan_timer] joan_timer
 
 ## タイマー用ボスバーの更新 ※9
-execute store result bossbar joan_timer value run scoreboard players get @e[tag=joan_timer,limit=1] joan_timer
+execute store result bossbar joan_time value run scoreboard players get @e[tag=joan_timer,limit=1] joan_timer
 
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事
 

@@ -11,11 +11,11 @@ scoreboard players remove @s[scores={joan_ab_n=1..}] joan_ab_n 1
 scoreboard players remove @s[scores={joan_ab_a=1..}] joan_ab_a 1
 
 ## パッシブアビリティ
-effect give @s[scores={joan_kill=1..}] speed 2 1 true
-effect give @s[scores={joan_kill=2..}] jump_boost 2 1 true
-effect give @s[scores={joan_kill=3..}] regeneration 2 1 true
-effect give @s[scores={joan_kill=4..}] speed 2 2 true
-effect give @s[scores={joan_kill=5..}] jump_boost 2 2 true
+effect give @s[scores={joan_killed=1..}] speed 2 1 true
+effect give @s[scores={joan_killed=2..}] jump_boost 2 1 true
+effect give @s[scores={joan_killed=3..}] regeneration 2 1 true
+effect give @s[scores={joan_killed=4..}] speed 2 2 true
+effect give @s[scores={joan_killed=5..}] jump_boost 2 2 true
 
 ## ノーマルアイテム
 item replace entity @a[tag=joan_wo,tag=joan_play,gamemode=adventure,scores={joan_ab_n=0}] hotbar.6 with minecraft:iron_ingot{display:{Name:'"吸血"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"原理は不明"}]']}} 1

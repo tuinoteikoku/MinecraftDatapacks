@@ -32,13 +32,16 @@ execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw
 execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:raw_gold",Count:1b}}]
 execute in minecraft:ja-world run kill @e[type=item,nbt={Item:{id:"minecraft:barrier",Count:1b}}]
 
-## 途中退出のち参加したプレーヤーの強制退出
+## 途中退出のち参加したプレーヤーの強制退出 ※7
 scoreboard players operation @a joan_Ctimer = @e[tag=joan_timer] joan_timer
 execute as @a[tag=joan_play] run scoreboard players operation @s joan_Ctimer -= @s joan_Ptimer
 execute as @a[scores={joan_Ctimer=..-2},tag=joan_play] run function joan_system:leave
 
-## プレイヤーのスコアとゲームタイマーの同期
+## プレイヤーのスコアとゲームタイマーの同期 ※8
 scoreboard players operation @a[tag=joan_play] joan_Ptimer = @e[tag=joan_timer] joan_timer
+
+## タイマー用ボスバーの更新 ※9
+execute store result bossbar joan_timer value run scoreboard players get @e[tag=joan_timer,limit=1] joan_timer
 
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事
 

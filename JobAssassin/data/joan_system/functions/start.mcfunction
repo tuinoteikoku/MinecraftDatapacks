@@ -31,6 +31,12 @@ gamemode adventure @a[tag=joan_play]
 ## 死亡回数リセット ※9
 scoreboard players set @a joan_death 0
 
+## kill数リセット
+scoreboard players set @a joan_killed 0
+
+## bossbarの表示
+bossbar set minecraft:joan_time visible true
+
 ## スキル用スコア設定
 scoreboard players set @a[tag=joan_play] joan_ab_a 0
 scoreboard players set @a[tag=joan_play] joan_ab_n 0

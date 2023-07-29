@@ -24,6 +24,9 @@ scoreboard players reset @a[tag=joan_play] joan_Ctimer
 ## 参加プレイヤーTag削除(Tag:joan_play) ※5
 tag @a[tag=joan_play] remove joan_play
 
+## bossbarの非表示
+bossbar set minecraft:joan_time visible false
+
 ## 選択ジョブTag削除(Tag:joan_as,wa,fa,na) ※6
 tag @a[tag=joan_as] remove joan_as
 tag @a[tag=joan_wo] remove joan_wo

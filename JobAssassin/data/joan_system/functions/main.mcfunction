@@ -20,7 +20,7 @@ execute in ja-world as @e[tag=joan_timer,tag=joan_select] run function joan_syst
 execute in ja-world as @e[tag=joan_timer,tag=joan_playing] run function joan_system:play
 
 ## 試合中以外にMAPに人がいるか(debug班以外)
-execute in ja-world as @e[tag=joan_timer,tag=joan_join] run tp @a[tag=!joan_debug,x=-200,dx=400,y=58,dy=200,z=-200,dz=400] 0.5 -63.0 10.0
+execute in ja-world as @a[tag=!joan_debug,x=-200,dx=400,y=58,dy=200,z=-200,dz=400] if entity @e[tag=joan_timer,tag=joan_join] run function joan_system:leave 
 
 # Tag[joan_play]の人数カウント
 execute store result score @a[tag=joan_play,gamemode=adventure] joan_live run effect give @a[tag=joan_play,gamemode=adventure] minecraft:unluck 1 0 true

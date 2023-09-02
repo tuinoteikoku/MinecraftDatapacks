@@ -1,7 +1,7 @@
 ## ノーマルアビリティ効果
-effect give @s[scores={joan_nomal=1}] invisibility 3 1 true
-effect give @s[scores={joan_nomal=1}] strength 3 1 true
-effect give @s[scores={joan_nomal=1}] speed 20 2 true
+effect give @s[scores={joan_normal=1}] invisibility 3 1 true
+effect give @s[scores={joan_normal=1}] strength 3 1 true
+effect give @s[scores={joan_normal=1}] speed 20 2 true
 
 ## アクティブアビリティ効果
 effect give @s[scores={joan_active=1}] strength 15 1 true
@@ -20,8 +20,8 @@ effect give @s[scores={joan_special=1}] strength 15 3 true
 ## スペシャルエフェクト
 
 ## ノーマルアビリティCt
-scoreboard players add @s[scores={joan_nomal=1}] joan_ab_n 800
-scoreboard players set @s[scores={joan_nomal=1}] joan_nomal 0
+scoreboard players add @s[scores={joan_normal=1}] joan_ab_n 800
+scoreboard players set @s[scores={joan_normal=1}] joan_nomal 0
 
 ## アクティブアビリティCt
 scoreboard players add @s[scores={joan_active=1}] joan_ab_a 1000

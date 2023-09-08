@@ -9,7 +9,7 @@ tag @e[type=armor_stand,tag=joan_select,tag=joan_timer] remove joan_select
 tag @e[type=armor_stand,tag=joan_join,tag=joan_timer] remove joan_join
 
 ## 試合タイマーセット(Score:joan_timer) ※4
-scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer 70000
+scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer 12000
 
 ## 参加プレイヤーTP(Tag:joan_play) ※5
 execute in ja-world unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400] run spreadplayers 0.5 0.5 30 180 false @a[tag=joan_play]

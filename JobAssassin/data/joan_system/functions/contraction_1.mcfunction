@@ -1,6 +1,6 @@
 # 警告通知
 ## 範囲収縮開始
-tellraw @a[tag=joan_play] "<JobAssassinSystem> 第一範囲収縮、開始"
+tellraw @a[tag=joan_play] {"text":"-=: \u7b2c\u4e00\u7bc4\u56f2\u53ce\u7e2e \u958b\u59cb :=-","bold":true,"color":"dark_purple"}
 ## 音声
 playsound entity.ender_dragon.growl master @s ~ ~ ~ 1 1 1
 

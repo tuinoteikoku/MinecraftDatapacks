@@ -11,4 +11,4 @@ tp @s ~ ~300 ~
 worldborder center ~ ~
 
 # 範囲収縮
-worldborder set 96 25
+worldborder set 48 25

@@ -6,6 +6,11 @@ give @a[tag=joan_play,scores={joan_ticket=3}] paper{display:{Name:'{"text":"エ�
 give @a[tag=joan_play,scores={joan_ticket=2}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50701,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
 give @a[tag=joan_play,scores={joan_ticket=1}] paper{display:{Name:'{"text":"エメラルドチケット","color":"green","bold":true,"italic":true}'},HideFlags:1,CustomModelData:50701,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 1
 
+## 範囲のリセット
+tp @e[tag=joan_timer] 0.5 300.5 0.5
+worldborder center 0.5 0.5
+worldborder set 385
+
 ## 参加プレイヤー返送 ※3
 tp @a[tag=joan_play] 0.5 -63.0 10.0
 

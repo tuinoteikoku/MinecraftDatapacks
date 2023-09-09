@@ -45,9 +45,9 @@ bossbar set minecraft:joan_time players @a[tag=joan_play]
 execute store result bossbar joan_time value run scoreboard players get @e[tag=joan_timer,limit=1] joan_timer
 
 ## 範囲収縮 ※10
-execute as @e[tag=joan_timer,scores={joan_safe=9600}] run function joan_system:contraction_1
-execute as @e[tag=joan_timer,scores={joan_safe=6000}] run function joan_system:contraction_2
-execute as @e[tag=joan_timer,scores={joan_safe=3000}] run function joan_system:contraction_3
+execute in ja-world as @e[tag=joan_timer,scores={joan_safe=9600}] run function joan_system:contraction_1
+execute in ja-world as @e[tag=joan_timer,scores={joan_safe=6000}] run function joan_system:contraction_2
+execute in ja-world as @e[tag=joan_timer,scores={joan_safe=3000}] run function joan_system:contraction_3
 
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事
 

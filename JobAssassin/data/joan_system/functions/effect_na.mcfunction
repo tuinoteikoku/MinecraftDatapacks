@@ -12,8 +12,8 @@ effect give @s[scores={joan_special=1}] resistance 15 3 true
 effect give @s[scores={joan_special=1}] saturation 15 3 true
 
 ## ノーマルエフェクト
-execute at @a[scores={joan_nomal=1}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0 20 force @a
-execute at @a[scores={joan_nomal=1}] run playsound minecraft:entity.player.levelup master @a ~ ~ ~
+execute at @a[scores={joan_normal=1}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0 20 force @a
+execute at @a[scores={joan_normal=1}] run playsound minecraft:entity.player.levelup master @a ~ ~ ~
 
 ## アクティブエフェクト
 execute at @a[scores={joan_active=1}] run particle minecraft:lava ~ ~ ~ 1 1 1 0 20 force @a

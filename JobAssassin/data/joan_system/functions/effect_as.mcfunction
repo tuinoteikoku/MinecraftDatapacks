@@ -10,8 +10,8 @@ effect give @s[scores={joan_special=1}] strength 5 2 true
 attribute @s[scores={joan_special=1}] minecraft:generic.max_health base set 26
 
 ## ノーマルエフェクト
-execute at @a[scores={joan_nomal=1}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0 20 force @a
-execute at @a[scores={joan_nomal=1}] run playsound minecraft:entity.player.levelup master @a ~ ~ ~
+execute at @a[scores={joan_normal=1}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0 20 force @a
+execute at @a[scores={joan_normal=1}] run playsound minecraft:entity.player.levelup master @a ~ ~ ~
 
 ## アクティブエフェクト
 execute at @a[scores={joan_active=1}] run particle minecraft:lava ~ ~ ~ 1 1 1 0 20 force @a

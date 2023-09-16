@@ -10,16 +10,16 @@ effect give @s[scores={joan_special=1}] strength 5 2 true
 attribute @s[scores={joan_special=1}] minecraft:generic.max_health base set 26
 
 ## ノーマルエフェクト
-execute at @a[scores={joan_normal=1}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0 20 force @a
-execute at @a[scores={joan_normal=1}] run playsound minecraft:entity.player.levelup master @a ~ ~ ~
+execute at @s[scores={joan_normal=1}] run particle minecraft:smoke ~ ~ ~ 1 1 1 0 20 force @s
+execute at @s[scores={joan_normal=1}] run playsound minecraft:entity.player.levelup master @s ~ ~ ~
 
 ## アクティブエフェクト
-execute at @a[scores={joan_active=1}] run particle minecraft:lava ~ ~ ~ 1 1 1 0 20 force @a
-execute at @a[scores={joan_active=1}] run playsound minecraft:entity.wolf.ambient master @a ~ ~ ~
+execute at @s[scores={joan_active=1}] run particle minecraft:lava ~ ~ ~ 1 1 1 0 20 force @s
+execute at @s[scores={joan_active=1}] run playsound minecraft:entity.wolf.ambient master @s ~ ~ ~
 
 ## スペシャルエフェクト
-execute at @a[scores={joan_special=1}] run particle minecraft:end_rod ~ ~ ~ 1 1 1 0 20 force @a
-execute at @a[scores={joan_special=1}] run playsound minecraft:entity.ender_dragon.hurt master @a ~ ~ ~
+execute at @s[scores={joan_special=1}] run particle minecraft:end_rod ~ ~ ~ 1 1 1 0 20 force @s
+execute at @s[scores={joan_special=1}] run playsound minecraft:entity.ender_dragon.hurt master @s ~ ~ ~
 
 ## ノーマルアビリティエフェクト
 scoreboard players add @s[scores={joan_normal=1}] joan_ab_n 800

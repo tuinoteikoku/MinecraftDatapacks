@@ -17,7 +17,7 @@ scoreboard objectives add joan_live dummy
 scoreboard objectives add joan_Ptimer dummy
 scoreboard objectives add joan_Ctimer dummy
 ### ゲーム参加人数カウント用のスコアボード
-scoreboard objectives add joan_killed minecraft.killed:player
+scoreboard objectives add joan_killed playerKillCount
 ### 死亡確認用スコアボード
 scoreboard objectives add joan_death minecraft.custom:deaths
 ### タイマー用bossbarの設定

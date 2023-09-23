@@ -8,6 +8,9 @@ tag @a[tag=joan_select] remove joan_select
 tag @e[type=armor_stand,tag=joan_select,tag=joan_timer] remove joan_select
 tag @e[type=armor_stand,tag=joan_join,tag=joan_timer] remove joan_join
 
+##参加プレイヤーのチーム設定
+team join Joan_Player @a[tag=joan_play]
+
 ## 試合タイマーセット(Score:joan_timer) ※4
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer 12000
 

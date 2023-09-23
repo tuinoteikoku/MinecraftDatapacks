@@ -14,12 +14,13 @@ scoreboard players reset @s joan_death
 scoreboard players reset @s joan_Ptimer
 scoreboard players reset @s joan_Ctimer
 
-## Tag削除
+## Tag,Team削除
 tag @s[tag=joan_as] remove joan_as
 tag @s[tag=joan_wo] remove joan_wo
 tag @s[tag=joan_fa] remove joan_fa
 tag @s[tag=joan_na] remove joan_na
 tag @s remove joan_play
+team leave @s
 
 ## TP
 tp @s 0.5 -63.0 10.0

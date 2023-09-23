@@ -25,3 +25,8 @@ bossbar add minecraft:joan_time "残り時間"
 bossbar set minecraft:joan_time max 12000
 bossbar set minecraft:joan_time style notched_20
 bossbar set minecraft:joan_time visible false
+### teamの設定
+team add Joan_Player
+team modify Joan_Player color red
+team modify Joan_Player nametagVisibility never
+team modify Joan_Player seeFriendlyInvisibles false

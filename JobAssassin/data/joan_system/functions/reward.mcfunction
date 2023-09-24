@@ -58,6 +58,7 @@ tag @e[tag=joan_timer,type=armor_stand] remove joan_playing
 
 ## 試合カウントリセット(Score:joan_timer) ※8
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer -1
+scoreboard players set @e[type=armor_stand,tag=joan_safe] joan_timer 0
 scoreboard players reset @a joan_killed
 
 ## 待機モードへ移行

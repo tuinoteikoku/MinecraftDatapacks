@@ -6,6 +6,7 @@ execute as @a[tag=joan_na,tag=joan_play] run function joan_system:ability_na
 
 ## 試合タイマーカウントダウン(Score:joan_timer) ※2
 scoreboard players remove @e[type=armor_stand,tag=joan_timer] joan_timer 1
+scoreboard players remove @e[type=armor_stand,tag=joan_safe] joan_timer 1
 
 scoreboard objectives setdisplay sidebar.team.red joan_view
 

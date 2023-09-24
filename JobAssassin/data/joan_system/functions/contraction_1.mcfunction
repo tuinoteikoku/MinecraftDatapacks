@@ -6,8 +6,8 @@ playsound entity.ender_dragon.growl master @a[tag=joan_play] ~ ~ ~ 1 1 1
 
 # 範囲収縮地点決定
 ## 中心地点の決定
-execute as @e[tag=joan_safe,limit=1] run spreadplayers ~ ~ 0 192.5 under 300 false @s
-execute as @e[tag=joan_safe,limit=1] run tp @s ~ ~300 ~
+execute in je-wrold as @e[tag=joan_safe,limit=1] run spreadplayers ~ ~ 0 191.5 under 300 false @s
+execute in je-wrold as @e[tag=joan_safe,limit=1] run tp @s ~ 300 ~
 worldborder center ~ ~
 
 # 範囲収縮

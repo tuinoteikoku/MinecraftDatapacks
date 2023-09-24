@@ -51,12 +51,14 @@ tag @a[tag=joan_as] remove joan_as
 tag @a[tag=joan_wo] remove joan_wo
 tag @a[tag=joan_fa] remove joan_fa
 tag @a[tag=joan_na] remove joan_na
+team empty Joan_Player
 
 ## タイマーキーリセット ※7
 tag @e[tag=joan_timer,type=armor_stand] remove joan_playing
 
 ## 試合カウントリセット(Score:joan_timer) ※8
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer -1
+scoreboard players reset @a joan_killed
 
 ## 待機モードへ移行
 tag @e[tag=joan_timer] add joan_join

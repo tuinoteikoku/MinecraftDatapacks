@@ -20,6 +20,8 @@ execute as @a[scores={joan_live=1},tag=joan_play] run function joan_system:rewar
 execute as @e[type=armor_stand,tag=joan_timer,scores={joan_timer=0}] run function joan_system:reward
 ### 制限時間が来たら
 
+team add Joan_Player
+
 ## 死亡したか ※5
 execute as @a[scores={joan_death=1..},gamemode=!spectator] run gamemode spectator @s
 execute as @a[scores={joan_death=1..},gamemode=!spectator] run effect clear @s

@@ -25,3 +25,9 @@ execute in ja-world as @a[tag=!joan_debug,x=-200,dx=400,y=58,dy=200,z=-200,dz=40
 # Tag[joan_play]の人数カウント
 execute store result score @a[tag=joan_play,gamemode=adventure] joan_live run effect give @a[tag=joan_play,gamemode=adventure] minecraft:unluck 1 0 true
 execute store result score 残り人数 joan_view if entity @a[tag=joan_play,gamemode=adventure]
+
+### teamの設定
+team add Joan_Player
+team modify Joan_Player color red
+team modify Joan_Player nametagVisibility never
+team modify Joan_Player seeFriendlyInvisibles false

@@ -27,7 +27,7 @@ execute at @s[scores={joan_special=1}] run playsound minecraft:entity.ender_drag
 
 ## ノーマルアビリティCt
 scoreboard players add @s[scores={joan_normal=1}] joan_ab_n 800
-scoreboard players set @s[scores={joan_normal=1}] joan_nomal 0
+scoreboard players set @s[scores={joan_normal=1}] joan_normal 0
 
 ## アクティブアビリティCt
 scoreboard players add @s[scores={joan_active=1}] joan_ab_a 1000

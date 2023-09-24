@@ -17,6 +17,9 @@ tp @a[tag=joan_play] 0.5 -63.0 10.0
 ## プレイヤーのゲームモード変更
 gamemode adventure @a[tag=joan_play]
 
+## scoreboardの非表示
+scoreboard objectives setdisplay sidebar.team.red
+
 ## 使用スコアボードのリセット ※4
 scoreboard players reset @a[tag=joan_play] joan_normal
 scoreboard players reset @a[tag=joan_play] joan_active
@@ -30,6 +33,9 @@ scoreboard players reset @a[tag=joan_play] joan_Ptimer
 scoreboard players reset @a[tag=joan_play] joan_Ctimer
 scoreboard players reset @a[tag=joan_play] joan_live
 scoreboard players reset @a[tag=joan_play] joan_join
+
+## 参加プレイヤーのTeam削除
+team leave @a[tag=joan_play]
 
 ## 参加プレイヤーTag削除(Tag:joan_play) ※5
 tag @a[tag=joan_play] remove joan_play

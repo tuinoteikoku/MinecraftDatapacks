@@ -7,6 +7,8 @@ execute as @a[tag=joan_na,tag=joan_play] run function joan_system:ability_na
 ## 試合タイマーカウントダウン(Score:joan_timer) ※2
 scoreboard players remove @e[type=armor_stand,tag=joan_timer] joan_timer 1
 
+scoreboard objectives setdisplay sidebar.team.red joan_view
+
 ## 死亡時の上位3位の順位の保存(Score:joan_ticket) ※3
 execute as @a[tag=joan_play,scores={joan_live=3}] run scoreboard players set @s joan_ticket 1
 execute as @a[tag=joan_play,scores={joan_live=2}] run scoreboard players set @s joan_ticket 2

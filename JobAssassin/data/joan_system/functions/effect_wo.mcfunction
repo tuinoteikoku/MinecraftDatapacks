@@ -15,7 +15,7 @@ execute at @s[scores={joan_active=1}] run playsound minecraft:entity.wolf.ambien
 
 ## ノーマルアビリティエフェクト
 scoreboard players add @s[scores={joan_normal=1}] joan_ab_n 800
-scoreboard players set @s[scores={joan_normal=1}] joan_nomal 0
+scoreboard players set @s[scores={joan_normal=1}] joan_normal 0
 
 ## アクティブアビリティエフェクト
 scoreboard players add @s[scores={joan_active=1}] joan_ab_a 1000

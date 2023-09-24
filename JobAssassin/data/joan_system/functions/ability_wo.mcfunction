@@ -17,6 +17,12 @@ effect give @s[scores={joan_killed=3..}] regeneration 2 1 true
 effect give @s[scores={joan_killed=4..}] speed 2 2 true
 effect give @s[scores={joan_killed=5..}] jump_boost 2 2 true
 
+effect give @s[scores={joan_killed=1..}] strength 2 1 true
+effect give @s[scores={joan_killed=2..}] strength 2 2 true
+effect give @s[scores={joan_killed=3..}] strength 2 3 true
+effect give @s[scores={joan_killed=4..}] strength 2 4 true
+effect give @s[scores={joan_killed=5..}] strength 2 5 true
+
 ## ノーマルアイテム
 item replace entity @a[tag=joan_wo,tag=joan_play,gamemode=adventure,scores={joan_ab_n=0}] hotbar.6 with minecraft:iron_ingot{display:{Name:'"自己再生"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"原理は不明"}]','[{"text":"[ノーマル]"}]']}} 1
 item replace entity @a[tag=joan_wo,tag=joan_play,gamemode=adventure,scores={joan_ab_n=1..}] hotbar.6 with minecraft:raw_iron{display:{Name:'"自己再生"',Lore:['[{"text":"クールタイム中"}]','[{"text":"原理は不明"}]','[{"text":"[ノーマル]"}]']}} 1

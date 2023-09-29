@@ -11,6 +11,10 @@ tag @e[type=armor_stand,tag=joan_join,tag=joan_timer] remove joan_join
 ##参加プレイヤーのチーム設定
 team join Joan_Player @a[tag=joan_play]
 
+##スニークスコアボードのリセット
+scoreboard players reset @a[tag=joan_play] joan_sneakA
+scoreboard players reset @a[tag=joan_play] joan_sneakB
+
 ## 試合タイマーセット(Score:joan_timer) ※4
 scoreboard players set @e[type=armor_stand,tag=joan_timer] joan_timer 12000
 scoreboard players set @e[type=armor_stand,tag=joan_safe] joan_timer 12000

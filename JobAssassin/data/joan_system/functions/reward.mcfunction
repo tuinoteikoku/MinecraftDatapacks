@@ -53,6 +53,7 @@ tag @a[tag=joan_as] remove joan_as
 tag @a[tag=joan_wo] remove joan_wo
 tag @a[tag=joan_fa] remove joan_fa
 tag @a[tag=joan_na] remove joan_na
+tag @a[tag=joan_do] remove joan_do
 tag @a[tag=joan_er] remove joan_er
 team empty Joan_Player
 

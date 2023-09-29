@@ -3,6 +3,7 @@ execute as @a[tag=joan_as,tag=joan_play] run function joan_system:ability_as
 execute as @a[tag=joan_wo,tag=joan_play] run function joan_system:ability_wo
 execute as @a[tag=joan_fa,tag=joan_play] run function joan_system:ability_fa
 execute as @a[tag=joan_na,tag=joan_play] run function joan_system:ability_na
+execute as @a[tag=joan_do,tag=joan_play] run function joan_system:ability_do
 execute as @a[tag=joan_er,tag=joan_play] run function joan_system:ability_er
 
 ## 試合タイマーカウントダウン(Score:joan_timer) ※2

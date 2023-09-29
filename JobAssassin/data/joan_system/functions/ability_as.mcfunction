@@ -21,7 +21,7 @@ effect give @s speed 2 1 true
 effect give @s jump_boost 2 1 true
 
 ## スペシャル解除
-execute as @s[scores={joan_ab_s=..1000}] run attribute @s minecraft:generic.max_health base set 20
+execute as @s[scores={joan_ab_s=..2400}] run attribute @s minecraft:generic.max_health base set 20
 
 ## ノーマルアイテム
 item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_n=0}] hotbar.6 with minecraft:iron_ingot{display:{Name:'"軽やかな足取り"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"静かに背後を襲う"}]','[{"text":"[ノーマル]"}]']},CustomModelData:50101} 1

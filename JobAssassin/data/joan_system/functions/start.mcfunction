@@ -28,6 +28,7 @@ item replace entity @a[tag=joan_as,tag=joan_play] hotbar.0 with minecraft:iron_s
 item replace entity @a[tag=joan_na,tag=joan_play] hotbar.0 with minecraft:stone_sword{CustomModelData:50704}
 item replace entity @a[tag=joan_na,tag=joan_play] weapon.offhand with minecraft:shield{CustomModelData:50705}
 item replace entity @a[tag=joan_wo,tag=joan_play] hotbar.0 with minecraft:stone_axe{CustomModelData:50706}
+item replace entity @a[tag=joan_er,tag=joan_play] hotbar.0 with minecraft:stone_sword{CustomModelData:50707}
 give @a[tag=joan_play] minecraft:beetroot{display:{Name:'{"text":"兵糧丸","color":"dark_purple","bold":true}',Lore:['{"text":"これは我々に力を与えてくれるだろう…","italic":true}']}} 64
 
 ## ゲームモード変更 ※8

@@ -11,6 +11,8 @@ scoreboard objectives add joan_active minecraft.dropped:minecraft.copper_ingot
 scoreboard objectives add joan_special minecraft.dropped:minecraft.gold_ingot
 ### スキルの発動検知用スコアボード
 scoreboard objectives add joan_ticket dummy
+scoreboard objectives add joan_sneakA minecraft.custom:sneak_time
+scoreboard objectives add joan_sneakB minecraft.custom:sneak_time
 ### 順位用のスコアボード
 scoreboard objectives add joan_live dummy
 ### プレーヤー入退出検知用スコアボード

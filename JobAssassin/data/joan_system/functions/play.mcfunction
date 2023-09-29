@@ -3,6 +3,7 @@ execute as @a[tag=joan_as,tag=joan_play] run function joan_system:ability_as
 execute as @a[tag=joan_wo,tag=joan_play] run function joan_system:ability_wo
 execute as @a[tag=joan_fa,tag=joan_play] run function joan_system:ability_fa
 execute as @a[tag=joan_na,tag=joan_play] run function joan_system:ability_na
+execute as @a[tag=joan_er,tag=joan_play] run function joan_system:ability_er
 
 ## 試合タイマーカウントダウン(Score:joan_timer) ※2
 scoreboard players remove @e[type=armor_stand,tag=joan_timer] joan_timer 1
@@ -20,8 +21,6 @@ execute as @a[scores={joan_live=1},tag=joan_play] run function joan_system:rewar
 ### 生き残りが１人以下になったら終了
 execute as @e[type=armor_stand,tag=joan_timer,scores={joan_timer=0}] run function joan_system:reward
 ### 制限時間が来たら
-execute as @a[scores={joan_live=0}] at @e[type=armor_stand,tag=joan_timer,scores={joan_timer=..10000}] run function joan_system:reward
-### 全滅してしまったら
 
 team add Joan_Player
 

@@ -24,16 +24,16 @@ effect give @s jump_boost 2 1 true
 execute as @s[scores={joan_ab_s=..1000}] run attribute @s minecraft:generic.max_health base set 20
 
 ## ノーマルアイテム
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_n=0}] hotbar.6 with minecraft:iron_ingot{display:{Name:'"軽やかな足取り"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"静かに背後を襲う"}]','[{"text":"[ノーマル]"}]']}} 1
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_n=1..}] hotbar.6 with minecraft:raw_iron{display:{Name:'"軽やかな足取り"',Lore:['[{"text":"クールタイム中"}]','[{"text":"静かに背後を襲う"}]','[{"text":"[ノーマル]"}]']}} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_n=0}] hotbar.6 with minecraft:iron_ingot{display:{Name:'"軽やかな足取り"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"静かに背後を襲う"}]','[{"text":"[ノーマル]"}]']},CustomModelData:50101} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_n=1..}] hotbar.6 with minecraft:raw_iron{display:{Name:'"軽やかな足取り"',Lore:['[{"text":"クールタイム中"}]','[{"text":"静かに背後を襲う"}]','[{"text":"[ノーマル]"}]']},CustomModelData:50401} 1
 
 ## アクティブアイテム
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_a=0}] hotbar.7 with minecraft:copper_ingot{display:{Name:'"ハイド＆シーク"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"息を殺して潜む"}]','[{"text":"[アクティブ]"}]']}} 1
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_a=1..}] hotbar.7 with minecraft:raw_copper{display:{Name:'"ハイド＆シーク"',Lore:['[{"text":"クールタイム中"}]','[{"text":"息を殺して潜む"}]','[{"text":"[アクティブ]"}]']}} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_a=0}] hotbar.7 with minecraft:copper_ingot{display:{Name:'"ハイド＆シーク"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"息を殺して潜む"}]','[{"text":"[アクティブ]"}]']},CustomModelData:50201} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_a=1..}] hotbar.7 with minecraft:raw_copper{display:{Name:'"ハイド＆シーク"',Lore:['[{"text":"クールタイム中"}]','[{"text":"息を殺して潜む"}]','[{"text":"[アクティブ]"}]']},CustomModelData:50501} 1
 
 ## スペシャルアイテム
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_s=0}] hotbar.8 with minecraft:gold_ingot{display:{Name:'"華麗なる犯行"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"奇襲は一瞬で行わなければならない"}]','[{"text":"[スペシャル]"}]']}} 1
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_s=1..}] hotbar.8 with minecraft:raw_gold{display:{Name:'"華麗なる犯行"',Lore:['[{"text":"クールタイム中"}]','[{"text":"奇襲は一瞬で行わなければならない"}]','[{"text":"[スペシャル]"}]']}} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_s=0}] hotbar.8 with minecraft:gold_ingot{display:{Name:'"華麗なる犯行"',Lore:['[{"text":"Qキーで使用"}]','[{"text":"奇襲は一瞬で行わなければならない"}]','[{"text":"[スペシャル]"}]']},CustomModelData:50301} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure,scores={joan_ab_s=1..}] hotbar.8 with minecraft:raw_gold{display:{Name:'"華麗なる犯行"',Lore:['[{"text":"クールタイム中"}]','[{"text":"奇襲は一瞬で行わなければならない"}]','[{"text":"[スペシャル]"}]']},CustomModelData:50601} 1
 
 ## パッシブアイテム&その他
-item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure] inventory.8 with minecraft:netherite_ingot{display:{Name:'"戦場の極意"',Lore:['[{"text":"使用不可"}]','[{"text":"基礎こそが重要"}]','[{"text":"[パッシブ]"}]']}} 1
+item replace entity @a[tag=joan_as,tag=joan_play,gamemode=adventure] inventory.8 with minecraft:netherite_ingot{display:{Name:'"戦場の極意"',Lore:['[{"text":"使用不可"}]','[{"text":"基礎こそが重要"}]','[{"text":"[パッシブ]"}]']},CustomModelData:50001} 1

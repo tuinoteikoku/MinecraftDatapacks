@@ -33,6 +33,8 @@ scoreboard players reset @a[tag=joan_play] joan_Ptimer
 scoreboard players reset @a[tag=joan_play] joan_Ctimer
 scoreboard players reset @a[tag=joan_play] joan_live
 scoreboard players reset @a[tag=joan_play] joan_join
+scoreboard players reset @a[tag=joan_play] joan_sneakA
+scoreboard players reset @a[tag=joan_play] joan_sneakB
 
 ## 参加プレイヤーのTeam削除
 team leave @a[tag=joan_play]
@@ -51,6 +53,7 @@ tag @a[tag=joan_as] remove joan_as
 tag @a[tag=joan_wo] remove joan_wo
 tag @a[tag=joan_fa] remove joan_fa
 tag @a[tag=joan_na] remove joan_na
+tag @a[tag=joan_er] remove joan_er
 team empty Joan_Player
 
 ## タイマーキーリセット ※7

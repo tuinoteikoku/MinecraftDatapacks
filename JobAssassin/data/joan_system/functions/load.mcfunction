@@ -32,3 +32,7 @@ team add Joan_Player
 team modify Joan_Player color red
 team modify Joan_Player nametagVisibility never
 team modify Joan_Player seeFriendlyInvisibles false
+### 疑似乱数生成用設定
+scoreboard objectives add joan_rn dummy
+scoreboard objectives add joan_rn_c dummy
+scoreboard players set #rng joan_rn_c 100

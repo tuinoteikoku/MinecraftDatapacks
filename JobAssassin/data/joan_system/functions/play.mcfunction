@@ -56,9 +56,6 @@ execute in ja-world as @e[tag=joan_timer,scores={joan_timer=9600}] run function 
 execute in ja-world as @e[tag=joan_timer,scores={joan_timer=6000}] run function joan_system:contraction_2
 execute in ja-world as @e[tag=joan_timer,scores={joan_timer=3000}] run function joan_system:contraction_3
 
-## 疑似乱数生成
-function joan_area:r_n_generator
-
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事
 
 title @a[tag=joan_debug] actionbar {"text":"play"}

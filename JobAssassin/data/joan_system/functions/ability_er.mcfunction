@@ -28,9 +28,9 @@ scoreboard players set @s[scores={joan_sneakB=600..}] joan_sneakA -400
 scoreboard players set @s[scores={joan_sneakA=..-1}] joan_sneakB 0
 
 ## ノーマルアビリティ効果
-execute at @a[tag=joan_er,scores={joan_normal=0,joan_ab_n=600..800}] as @a[tag=joan_play,distance=1..20] run effect give @s minecraft:weakness 5 2 true
-execute at @a[tag=joan_er,scores={joan_normal=0,joan_ab_n=600..800}] as @a[tag=joan_play,distance=1..20] run effect give @s minecraft:nausea 5 1 true
-execute at @a[tag=joan_er,scores={joan_normal=0,joan_ab_n=600..800}] as @a[tag=joan_play,distance=1..20] run effect give @s minecraft:blindness 5 1 true
+execute at @a[tag=joan_er,scores={joan_normal=0,joan_ab_n=600..800}] as @a[tag=joan_play,distance=1..20,gamemode=adventure] run effect give @s minecraft:weakness 5 2 true
+execute at @a[tag=joan_er,scores={joan_normal=0,joan_ab_n=600..800}] as @a[tag=joan_play,distance=1..20,gamemode=adventure] run effect give @s minecraft:nausea 5 1 true
+execute at @a[tag=joan_er,scores={joan_normal=0,joan_ab_n=600..800}] as @a[tag=joan_play,distance=1..20,gamemode=adventure] run effect give @s minecraft:blindness 5 1 true
 
 ## アクティブアビリティ効果
 effect give @s[scores={joan_active=1}] saturation 10 2 true

@@ -7,7 +7,7 @@ playsound entity.ender_dragon.growl master @a[tag=joan_play] ~ ~ ~ 1 1 1
 # 範囲収縮地点決定
 execute in ja-world as @e[tag=joan_safe,limit=1] run spreadplayers ~ ~ 0 191.5 under 300 false @s
 execute in ja-world as @e[tag=joan_safe,limit=1] run tp @s ~ 300 ~
-execute at @e[tag=joan_safe,limit=1] run worldborder center ~ ~
+execute in ja-world at @e[tag=joan_safe,limit=1] run worldborder center ~ ~
 
 # 範囲収縮
 worldborder set 96 30

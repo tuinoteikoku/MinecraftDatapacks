@@ -11,5 +11,5 @@ execute in ja-world at @e[tag=joan_safe,limit=1] run tp @e[tag=joan_safe,limit=1
 execute in ja-world at @e[tag=joan_safe,limit=1] run worldborder center ~ ~
 
 # 範囲収縮
-worldborder set 53
-execute in ja-world run worldborder set 48 25
+worldborder set 240
+execute in ja-world run worldborder set 96 25

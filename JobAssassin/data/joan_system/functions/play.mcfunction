@@ -59,6 +59,11 @@ execute in ja-world as @e[tag=joan_timer,scores={joan_timer=6000}] run function 
 execute in ja-world as @e[tag=joan_timer,scores={joan_timer=5000}] run function joan_system:contraction_3_1
 execute in ja-world as @e[tag=joan_timer,scores={joan_timer=3000}] run function joan_system:contraction_3_2
 
+## 現在座標表示 ※11
+execute as @a[tag=joan_play] store result score @s joan_posx run data get entity @s Pos[0]
+execute as @a[tag=joan_play] store result score @s joan_posz run data get entity @s Pos[2]
+title @a[tag=joan_play] actionbar [{"text":"X:"},{"score":{"name":"@s","objective":"joan_posx"}},{"text":" Y:"},{"score":{"name":"@s","objective":"joan_posz"}}]
+
 ## (※1) 新しくJobを追加した際は[#各ジョブ選択者がいるか]の下に追加する事
 
 title @a[tag=joan_debug] actionbar {"text":"play"}

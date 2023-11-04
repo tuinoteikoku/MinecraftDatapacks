@@ -22,6 +22,9 @@ scoreboard objectives add joan_Ctimer dummy
 scoreboard objectives add joan_killed playerKillCount
 ### 死亡確認用スコアボード
 scoreboard objectives add joan_death minecraft.custom:deaths
+### 現在地座標
+scoreboard objectives add joan_posx dummy
+scoreboard objectives add joan_posz dummy
 ### タイマー用bossbarの設定
 bossbar add minecraft:joan_time "残り時間"
 bossbar set minecraft:joan_time max 12000

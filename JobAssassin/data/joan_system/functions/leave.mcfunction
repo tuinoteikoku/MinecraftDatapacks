@@ -31,4 +31,5 @@ tp @s 0.5 -63.0 10.0
 
 ## ゲームモードの変更
 execute as @s run attribute @s minecraft:generic.max_health base set 20
-gamemode adventure @s
+execute if entity @e[tag=joan_timer,tag=joan_playing] run gamemode spectator @s
+execute if entity @e[tag=joan_timer,tag=joan_join] run gamemode adventure @s

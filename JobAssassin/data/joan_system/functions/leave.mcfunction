@@ -23,7 +23,6 @@ tag @s[tag=joan_fa] remove joan_fa
 tag @s[tag=joan_na] remove joan_na
 tag @s[tag=joan_do] remove joan_do
 tag @s[tag=joan_er] remove joan_er
-tag @s remove joan_play
 team leave @s
 
 ## TP

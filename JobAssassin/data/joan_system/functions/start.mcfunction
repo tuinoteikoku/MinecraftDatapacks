@@ -24,7 +24,7 @@ execute in ja-world unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400] r
 
 ## 観戦プレイヤーtp ※5.5
 execute in ja-world as @a[x=12,y=-63,z=12,dx=-24,dy=9,dz=-24,tag=!joan_play] run gamemode spectator @s
-execute in ja-world as @a[x=12,y=-63,z=12,dx=24,dy=9,dz=24] run tp @a[tag=!joan_play] 0 150 0
+execute in ja-world as @a[x=12,y=-63,z=12,dx=24,dy=9,dz=24,tag=!joan_play] run tp @s 0 150 0
 
 ## 開始演出(Tag:joan_play) ※6
 title @a[tag=joan_play] title ["",{"text":"\u22d9 \u30b2\u30fc\u30e0\u30b9\u30bf\u30fc\u30c8!! ","bold":true,"italic":true,"color":"dark_red"},{"text":"\u22d8","color":"dark_red"}]

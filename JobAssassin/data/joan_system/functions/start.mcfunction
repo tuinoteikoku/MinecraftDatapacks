@@ -23,7 +23,7 @@ scoreboard players set @e[type=armor_stand,tag=joan_safe] joan_timer 12000
 execute in ja-world unless entity @a[x=-200,dx=400,y=-50,dy=250,z=-200,dz=400] run spreadplayers 0.5 0.5 30 180 false @a[tag=joan_play]
 
 ## 観戦プレイヤーtp ※5.5
-execute in ja-world as @a[x=12,y=-63,z=12,dx=24,dy=9,dz=24] run gamemode spectator @a[tag=!joan_play]
+execute in ja-world as @a[x=12,y=-63,z=12,dx=-24,dy=9,dz=-24,tag=!joan_play] run gamemode spectator @s
 execute in ja-world as @a[x=12,y=-63,z=12,dx=24,dy=9,dz=24] run tp @a[tag=!joan_play] 0 150 0
 
 ## 開始演出(Tag:joan_play) ※6

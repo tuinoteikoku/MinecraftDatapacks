@@ -1,24 +1,23 @@
 ## job設定
 ### アサシン
-execute at @e[type=armor_stand,tag=joan_as,distance=..1] run tag @a[tag=joan_select] add joan_as
-execute at @e[type=armor_stand,tag=joan_as,distance=..1] run tp @a[tag=joan_as] ~ -4 ~
-
+execute in ja-world run tag @a[x=0,y=-7,z=-9,dx=0.1,dy=0.1,dz=0.1,tag=joan_select] add joan_as
+execute in ja-world run tp @a[x=0,y=-7,z=-9,dx=0.1,dy=0.1,dz=0.1,tag=joan_as] 0 -12 -9
 ### ナイト
-execute at @e[type=armor_stand,tag=joan_na,distance=..1] run tag @a[tag=joan_select] add joan_na
-execute at @e[type=armor_stand,tag=joan_na,distance=..1] run tp @a[tag=joan_na] ~ -4 ~
+execute in ja-world run tag @a[x=-9,y=-7,z=0,dx=0.1,dy=0.1,dz=0.1,tag=joan_select] add joan_na
+execute in ja-world run tp @a[x=-9,y=-7,z=0,dx=0.1,dy=0.1,dz=0.1,tag=joan_na] -9 -12 0
 
 ### ファイター
-execute at @e[type=armor_stand,tag=joan_fa,distance=..1] run tag @a[tag=joan_select] add joan_fa
-execute at @e[type=armor_stand,tag=joan_fa,distance=..1] run tp @a[tag=joan_fa] ~ -4 ~
+execute in ja-world run tag @a[x=0,y=-7,z=9,dx=0.1,dy=0.1,dz=0.1,tag=joan_select] add joan_fa
+execute in ja-world run tp @a[x=0,y=-7,z=9,dx=0.1,dy=0.1,dz=0.1,tag=joan_fa] 0 -12 9
 
 ### ウォーリア
-execute at @e[type=armor_stand,tag=joan_wo,distance=..1] run tag @a[tag=joan_select] add joan_wo
-execute at @e[type=armor_stand,tag=joan_wo,distance=..1] run tp @a[tag=joan_wo] ~ -4 ~
+execute in ja-world run tag @a[x=9,y=-7,z=0,dx=0.1,dy=0.1,dz=0.1,tag=joan_select] add joan_wo
+execute in ja-world run tp @a[x=9,y=-7,z=0,dx=0.1,dy=0.1,dz=0.1,tag=joan_wo] 9 -12 0
 
 ### エージェント
-execute at @e[type=armor_stand,tag=joan_er,distance=..1] run tag @a[tag=joan_select] add joan_er
-execute at @e[type=armor_stand,tag=joan_er,distance=..1] run tp @a[tag=joan_er] ~ -4 ~
+execute in ja-world run tag @a[x=6,y=-7,z=-6,dx=0.1,dy=0.1,dz=0.1,tag=joan_select] add joan_er
+execute in ja-world run tp @a[x=6,y=-7,z=-6,dx=0.1,dy=0.1,dz=0.1,tag=joan_er] 6 -12 -6
 
 ### ドクター
-execute at @e[type=armor_stand,tag=joan_do,distance=..1] run tag @a[tag=joan_select] add joan_do
-execute at @e[type=armor_stand,tag=joan_do,distance=..1] run tp @a[tag=joan_do] ~ -4 ~
+execute in ja-world run tag @a[x=-6,y=-7,z=-6,dx=0.1,dy=0.1,dz=0.1,tag=joan_select] add joan_do
+execute in ja-world run tp @a[x=-6,y=-7,z=-6,dx=0.1,dy=0.1,dz=0.1,tag=joan_do] -6 -12 -6
